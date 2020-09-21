@@ -31,7 +31,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/tiger1103/gfast-ui.git
+git clone https://gitee.com/tiger1103/gfast-ui.git
 
 # 进入项目目录
 cd gfast-ui
@@ -59,7 +59,7 @@ npm run build:prod
 ```
 
 ## 后端地址
-[gfast](https://github.com/tiger1103/gfast)
+[gfast](https://gitee.com/tiger1103/gfast)
 
 ## 演示图
 
