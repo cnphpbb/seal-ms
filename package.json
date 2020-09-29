@@ -1,8 +1,8 @@
 {
-  "name": "ruoyi",
-  "version": "2.2.0",
-  "description": "gfast管理系统",
-  "author": "yxh",
+  "name": "seal-ui",
+  "version": "1.2.0",
+  "description": "seal-ms",
+  "author": "gy",
   "license": "MIT",
   "scripts": {
     "dev": "vue-cli-service serve",
@@ -15,29 +15,11 @@
     "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml",
     "new": "plop"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "src/**/*.{js,vue}": [
       "eslint --fix",
       "git add"
     ]
-  },
-  "keywords": [
-    "vue",
-    "admin",
-    "dashboard",
-    "element-ui",
-    "boilerplate",
-    "admin-template",
-    "management-system"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://gitee.com/y_project/RuoYi-Vue.git"
   },
   "dependencies": {
     "@form-create/element-ui": "1.0.17",

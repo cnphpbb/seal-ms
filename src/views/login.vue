@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form">
-      <h3 class="title">gfast后台管理系统</h3>
+      <h3 class="title">Seal-MS----海豹管理系统</h3>
       <el-form-item prop="username">
         <el-input v-model="loginForm.username" type="text" auto-complete="off" placeholder="账号">
           <svg-icon slot="prefix" icon-class="user" class="el-input__icon input-icon" />
@@ -48,7 +48,7 @@
     </el-form>
     <!--  底部  -->
     <div class="el-login-footer">
-      <span>Copyright © 2018-2020 gfast.vip All Rights Reserved.</span>
+      <span>Copyright © 2018-2020 Get135.Inc. All Rights Reserved.</span>
     </div>
   </div>
 </template>
@@ -66,7 +66,7 @@ export default {
       cookiePassword: "",
       loginForm: {
         username: "demo",
-        password: "123456",
+        password: "demo#1234",
         rememberMe: false,
         code: "",
         uuid: ""
