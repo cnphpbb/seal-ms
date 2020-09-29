@@ -6,7 +6,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
-const name = defaultSettings.title || 'Seal-MS----海豹管理系统' // 标题
+const name = defaultSettings.title || 'SealMS--海豹管理系统' // 标题
 
 const port = process.env.port || process.env.npm_config_port || 8008 // 端口
 

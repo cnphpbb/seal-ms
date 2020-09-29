@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Seal-MS----海豹管理系统',
+  title: 'SealMS--海豹管理系统',
 
   /**
    * 是否系统布局配置
